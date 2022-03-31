@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "productName": "tomato",
+        "weight": 120,
+        "price": 8,
+        "img": "images/pexels-photo-4198043.jpg"
+    },
+    {
+        "id": 2,
+        "productName": "blueberry",
+        "weight": 100,
+        "price": 10,
+        "img": "images/pexels-photo-4022090.jpg"
+    },
+    {
+        "id": 3,
+        "productName": "asparagus",
+        "weight": 80,
+        "price": 6,
+        "img": "images/pexels-photo-4033111.jpg"
+    },
+    {
+        "id": 4,
+        "productName": "сherry",
+        "weight": 100,
+        "price": 7,
+        "img": "images/pexels-photo-4033112.jpg"
+    },
+    {
+        "id": 5,
+        "productName": "onion",
+        "weight": 100,
+        "price": 4,
+        "img": "images/pexels-photo-4197445 2.jpg"
+    },
+    {
+        "id": 6,
+        "productName": "garlic",
+        "weight": 115,
+        "price": 2,
+        "img": "images/pexels-photo-4197494 1.jpg"
+    },
+    {
+        "id": 7,
+        "productName": "bun",
+        "weight": 100,
+        "price": 4,
+        "img": "images/pexels-photo-4197984 1.jpg"
+    },
+    {
+        "id": 8,
+        "productName": "candies",
+        "weight": 150,
+        "price": 7,
+        "img": "images/pexels-photo-4197988.jpg"
+    },
+    {
+        "id": 9,
+        "productName": "peach",
+        "weight": 120,
+        "price": 6,
+        "img": "images/pexels-photo-6157041 1.jpg"
+    },
+    {
+        "id": 10,
+        "productName": "avocado",
+        "weight": 120,
+        "price": 10,
+        "img": "images/pexels-photo-6157049 1.jpg"
+    }
+]
