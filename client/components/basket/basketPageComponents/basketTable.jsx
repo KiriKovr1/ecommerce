@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
+
 import TableItem from "./basketItem";
 
 const BasketTable = () => {
@@ -49,7 +50,7 @@ const BasketTable = () => {
                         repeat={repeat[product.name]}
                     />
                 })}
-            </tbody>
+            </tbody> 
         </table>
     )
 }

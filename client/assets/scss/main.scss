@@ -92,10 +92,11 @@ $storeMargin: (100vw - $storeWidth - ($productMargin / 2)) / 2;
             margin-top: 2vh;
             width: 100%;
             height: 5vh;
-            background-color: $firstColor;
+            background: $firstColor;
             color: $secondColor;
             border: none;
             border-radius: $borderRadius;
+            box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.25), inset 5px 5px 20px #c9d8ff;
 
             .ProductCart__Button__context {
                 display: flex;
@@ -106,6 +107,11 @@ $storeMargin: (100vw - $storeWidth - ($productMargin / 2)) / 2;
                     width: 30%;
                 }
             }
+        }
+
+        .ProductCart__Button:hover {
+            box-shadow: none;
+            transition-duration: 200ms;
         }
     }
 }
@@ -119,6 +125,7 @@ $storeMargin: (100vw - $storeWidth - ($productMargin / 2)) / 2;
     }
 }
 
+
 .mainPage__header {
     .header__main {
         width: 100%;
@@ -130,9 +137,8 @@ $storeMargin: (100vw - $storeWidth - ($productMargin / 2)) / 2;
         align-items: center;
         z-index: 20;
 
-        .header__titleLink{
+        .header__titleLink {
             text-decoration: none;
-
         }
 
         .header__titleAndDescription {
@@ -196,6 +202,12 @@ $storeMargin: (100vw - $storeWidth - ($productMargin / 2)) / 2;
                 border-radius: $borderRadius;
                 background-color: $forthColor;
                 color: $therdColor;
+                box-shadow: inset -2px -2px 5px rgba(0, 0, 0, 0.25), inset 2px 2px 5px #e5edff;
+            }
+
+            .currencyButtons__button:hover{
+                box-shadow: none;
+                transition-duration: 200ms;
             }
         }
 
@@ -289,7 +301,6 @@ $tableWidth: 100vw - ($productMargin + $storeMargin) * 2;
     padding-top: 4vh;
     padding-bottom: 4vh;
 
-    
     .table__title {
         color: $firstColor;
         font-size: 40px;
@@ -309,6 +320,12 @@ $tableWidth: 100vw - ($productMargin + $storeMargin) * 2;
                 background-color: $firstColor;
                 color: $secondColor;
                 font-size: 20px;
+                box-shadow: inset -3px -3px 20px rgba(0, 0, 0, 0.25), inset 3px 3px 20px #c9d8ff;
+            }
+
+            .column__button:hover{
+                box-shadow: none;
+                transition-duration: 200ms;
             }
         }
         .tableItem__column {
@@ -323,6 +340,7 @@ $tableWidth: 100vw - ($productMargin + $storeMargin) * 2;
         overflow: hidden;
         display: flex;
         justify-content: center;
+        align-items: end;
 
         .tableItem__img {
             width: 4vw;
