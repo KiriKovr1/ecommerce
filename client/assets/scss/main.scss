@@ -130,6 +130,11 @@ $storeMargin: (100vw - $storeWidth - ($productMargin / 2)) / 2;
         align-items: center;
         z-index: 20;
 
+        .header__titleLink{
+            text-decoration: none;
+
+        }
+
         .header__titleAndDescription {
             margin-left: $productMargin + $storeMargin;
             width: $productWidth;
@@ -283,23 +288,31 @@ $tableWidth: 100vw - ($productMargin + $storeMargin) * 2;
     padding-right: 6vw;
     padding-top: 4vh;
     padding-bottom: 4vh;
+
     
-    .table__title{
+    .table__title {
         color: $firstColor;
         font-size: 40px;
         font-weight: bold;
     }
 
-    .table__tableItem{
+    .table__tableItem {
         color: $therdColor;
-        .tableItem__column{
-            width: $tableWidth / 3 ;
+        .tableItem__column--button {
+            width: 3vw;
 
-            .column__name{
-                width: 31%;
-                display: flex;
-                align-items: start;
+            .column__button {
+                width: 80%;
+                height: 5vh;
+                border: none;
+                border-radius: $borderRadius;
+                background-color: $firstColor;
+                color: $secondColor;
+                font-size: 20px;
             }
+        }
+        .tableItem__column {
+            width: $tableWidth / 5;
         }
     }
 
@@ -310,10 +323,9 @@ $tableWidth: 100vw - ($productMargin + $storeMargin) * 2;
         overflow: hidden;
         display: flex;
         justify-content: center;
-    
+
         .tableItem__img {
             width: 4vw;
         }
     }
 }
-
